@@ -131,4 +131,9 @@ h2{
 
 .albuns{
     padding: 10px 0px;
+    
+}
+
+.albuns img{
+    margin-bottom: 10px;
 }
