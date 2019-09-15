@@ -1,5 +1,6 @@
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -30,7 +31,7 @@ h2{
     letter-spacing: -0.04em;
 }
 
-h2{
+h3{
     font-size: 2em;
     font-weight: 700;
     letter-spacing: -0.04em;
@@ -120,6 +121,10 @@ h2{
     color: black;
 }
 
+.caixa{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 #servicos{
     background: white;
     padding-bottom: 20px;
@@ -137,3 +142,56 @@ h2{
 .albuns img{
     margin-bottom: 10px;
 }
+
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+#recursos{
+    color: white;
+}
+#recursos h2 {
+    color:#ffffff;
+}
+#recursos p {
+    color:#ffffff;
+}
+
+#recursos h3{
+    color:#9bf0e1;
+}
+
+footer{
+    background: #000;
+    position: relative;
+    padding: 50px 0 20px 0;
+}
+
+footer h4{
+    color:#919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+footer a{
+    color: white;
+    font-size: 0.8em;
+}
+
+footer a:hover{
+    color: #9bf0e1;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    float: right;
+    margin: 0px 5px;
+}
+
